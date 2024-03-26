@@ -3,8 +3,8 @@ import iconSuvs from "./assets/icon-suvs.svg"
 import iconLuxury from "./assets/icon-luxury.svg"
 export default function App() {
   return (
-    <main className="min-h-svh bg-offwhitebg py-20 px-6">
-      <section>
+    <main className="min-h-svh bg-offwhitebg py-20 px-6 antialiased lg:flex justif-center items-center">
+      <section className="lg:flex">
         <div className="bg-orange p-12 rounded-t-lg">
           <img src={iconSedans} alt="icone carros sedans" className="mb-7"/>
           <h2 className="font-shoulders mb-7 uppercase text-4xl font-bold text-offwhitebg">Sedans</h2>
